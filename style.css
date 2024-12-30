@@ -1,0 +1,129 @@
+/* Общие стили */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Шапка сайта */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header nav ul {
+    list-style: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Герой-секция */
+.hero {
+    background: url('https: //via .placeholder .com/1920x600') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2{
+    font-size: 36px;
+}
+
+.hero .bth {
+    display: inline-block;
+    margin-top: 20px;
+    background: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* О нас */
+.about, .services, .projects, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+}
+
+.project-gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.project-item {
+    background: #2e353a;
+    height: 150px;
+    width: 30%;
+    text-align: center;
+    line-height: 150px;
+}
+
+/* Контакты */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Подвал */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
